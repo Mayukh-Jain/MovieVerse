@@ -1,0 +1,9 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-dotenv==1.0.1
+requests==2.31.0
+sentence-transformers==2.3.1
+qdrant-client==1.7.3
+google-generativeai==0.3.2
+torch --index-url https://download.pytorch.org/whl/cpu
+
