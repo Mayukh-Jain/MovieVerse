@@ -148,46 +148,10 @@ npm run dev
 
 ## 🌐 Live Demo
 
-🚀 **Frontend:** [https://cine-ai.vercel.app](https://cine-ai.vercel.app)
-⚙️ **Backend API:** [https://cine-ai-api.onrender.com](https://cine-ai-api.onrender.com)
+🚀 **Frontend:** [https://cine-ai-vert.vercel.app/](https://cine-ai-vert.vercel.app/)
+⚙️ **Backend API:** [https://jain-mayukh-movieback.hf.space](https://jain-mayukh-movieback.hf.space)
 
 > ⚠️ *Note:* The backend may take a few seconds to wake up on first request due to free-tier hosting.
-
----
-
-## 📘 API Documentation
-
-The Cine-AI backend exposes a RESTful API built with **FastAPI**. Interactive API documentation is available via Swagger UI.
-
-🔗 **Swagger Docs:** [https://cine-ai-api.onrender.com/docs](https://cine-ai-api.onrender.com/docs)
-🔗 **ReDoc:** [https://cine-ai-api.onrender.com/redoc](https://cine-ai-api.onrender.com/redoc)
-
-### Example Request – Semantic Recommendation
-
-```http
-POST /recommend
-Content-Type: application/json
-
-{
-  "query": "A time-travel movie with emotional depth",
-  "top_k": 5
-}
-```
-
-### Example Response
-
-```json
-{
-  "results": [
-    {
-      "title": "Interstellar",
-      "overview": "A team of explorers travel through a wormhole...",
-      "score": 0.92,
-      "ai_explanation": "This movie explores time dilation, emotional sacrifice..."
-    }
-  ]
-}
-```
 
 ---
 
